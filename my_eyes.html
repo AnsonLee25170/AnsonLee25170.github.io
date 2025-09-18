@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        @keyframes fadeout {
+            /* at 100% fade out the div box */
+            100% {
+                opacity: 0;
+            }
+        }
+        div {
+            height: 100vh;
+            width: 14.2vw;
+            position: relative;
+            float: left;
+            animation-name: fadeout;
+            animation-iteration-count: infinite;
+        }
+        #red {
+            background-color: red;
+            animation-duration: 1s;
+        }
+        #orange {
+            background-color: orange;
+            animation-duration: 1.2s;
+        }
+        #yellow {
+            background-color: yellow;
+            animation-duration: 1.4s;
+        }
+        #green {
+            background-color: green;
+            animation-duration: 1.6s;
+        }
+        #blue {
+            background-color: blue;
+            animation-duration: 1.8s
+        }
+        #purple {
+            background-color: purple;
+            animation-duration: 2s;
+        }
+        #pink {
+            background-color: pink;
+            animation-duration: 2.2s;
+        }
+    </style>
+</head>
+<body>
+    <div id="red"></div>
+    <div id="orange"></div>
+    <div id="yellow"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="purple"></div>
+    <div id="pink"></div>
+</body>
+</html>
